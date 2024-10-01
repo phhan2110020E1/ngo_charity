@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.auth__confirm__email--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    background-color: #fad939;
+    margin: 10px auto;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #5d541d;
+}
+.auth__confirm__email--content {
+    padding: 10px 20px;
+}
+.auth__confirm__email--h1 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0 70px;
+    margin: 25px 0;
+    line-height: 50px;
+}
+.auth__confirm__email--subject {
+    padding-bottom: 20px;
+}
+.auth__confirm__email--h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.auth__confirm__email--p {
+    font-size: 18px;
+    line-height: 150%;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 18px 0;
+}
+.auth__confirm__email--btn {
+    padding: 15px 35px 15px 35px;
+    display: inline-block;
+    background: #8928c6;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    border-style: none;
+}
+.auth__confirm__email--btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.auth__confirm__email--footer {
+    margin: 16px 0;
+}

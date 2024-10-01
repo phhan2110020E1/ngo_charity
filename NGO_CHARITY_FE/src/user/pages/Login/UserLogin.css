@@ -1,0 +1,223 @@
+.user__pages__form {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #ffeba7;
+    /* background-color: red; */
+    background: url('/public/assets/images/login/1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.user__pages__form__login--link {
+    color: #ffeba7;
+}
+.user__pages__form__login--link:hover {
+    text-decoration: none;
+    color: #c4c3ca;
+}
+.user__pages__form__login--p {
+    font-weight: 500;
+    font-size: 14px;
+}
+.user__pages__form--h4 {
+    font-weight: 600;
+}
+.user__pages__form--h6 .user__pages__form--span {
+    font-size: 22px;
+    color: #49690a;
+    padding: 0 20px;
+    font-weight: 700;
+}
+.user__pages__form--section {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.user__pages__form--full-height {
+    min-height: 100vh;
+}
+[type='checkbox']:checked,
+[type='checkbox']:not(:checked) {
+    display: none;
+}
+.user__pages__form--checkbox:checked + label,
+.user__pages__form--checkbox:not(:checked) + label {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 60px;
+    height: 16px;
+    border-radius: 8px;
+    padding: 0;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: #49690a;
+}
+.user__pages__form--checkbox:checked + label:before,
+.user__pages__form--checkbox:not(:checked) + label:before {
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #ffeba7;
+    background-color: #020305;
+    font-family: 'unicons';
+    content: '\eb4f';
+    z-index: 20;
+    top: -10px;
+    left: -10px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+.user__pages__form--checkbox:checked + label:before {
+    transform: translateX(44px) rotate(-270deg);
+}
+.user__pages__form--card-3d-wrap {
+    position: relative;
+    width: 440px;
+    max-width: 100%;
+    height: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    margin-top: 60px;
+}
+.user__pages__form--card-3d-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: all 600ms ease-out;
+}
+.user__pages__form__login--card-front,
+.user__pages__form__register--card-back {
+    width: 100%;
+    height: 100%;
+    background-color: #2b2e38;
+    position: absolute;
+    border-radius: 6px;
+    -webkit-transform-style: preserve-3d;
+}
+.user__pages__form__register--card-back {
+    transform: rotateY(180deg);
+}
+.user__pages__form--checkbox:checked ~ .user__pages__form--card-3d-wrap .user__pages__form--card-3d-wrapper {
+    transform: rotateY(180deg);
+}
+.user__pages__form--center-wrap {
+    position: absolute;
+    width: 100%;
+    padding: 0 35px;
+    top: 50%;
+    left: 0;
+    transform: translate3d(0, -50%, 35px) perspective(100px);
+    z-index: 20;
+    display: block;
+}
+.user__pages__form--form-group {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.user__pages__form--form-style {
+    padding: 13px 20px;
+    padding-left: 55px;
+    height: 48px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    border: none;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
+}
+.user__pages__form--form-style:focus,
+.user__pages__form--form-style:active {
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
+}
+.user__pages__form--input-icon {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 48px;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: left;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.user__pages__form--input-valid {
+    text-align: left;
+    font-size: 16px;
+    color: #ffeb00;
+}
+
+.user__pages__form--btn {
+    border-radius: 4px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffeba7;
+    color: #000000;
+}
+.user__pages__form--btn:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+
+.user__pages__form--back-home {
+    display: flex;
+}
+
+.user__pages__form--back-home-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.user__pages__form--section-email {
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+/* forget password */
+
+.forgetpass__page__wrapper {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #ffeba7;
+    /* background-color: red; */
+    background: url('/public/assets/images/login/1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.forgetpass__page__wrapper--content {
+}

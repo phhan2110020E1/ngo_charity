@@ -1,0 +1,189 @@
+.user__pages__donation-wrap {
+    width: 430px;
+    background: url('/public/assets/images/moroccan-flower-dark.png');
+    border-radius: 10px 10px 0px 0;
+    margin: 0 auto;
+}
+/* @media (min-width: 992px) {
+    .user__pages__donation-wrap {
+        margin-top: -113px;
+    }
+} */
+.user__pages__donation-wrap .total-donate {
+    background: #fd645b;
+    padding: 25px 40px;
+    border-radius: 10px 10px 0px 0;
+    z-index: 0;
+    position: relative;
+}
+.user__pages__donation-wrap .total-donate h4 {
+    color: #fff;
+    font-size: 15px;
+    width: 50%;
+    font-weight: 600;
+}
+.user__pages__donation-wrap .total-donate p {
+    width: 50%;
+    margin-bottom: 0;
+}
+.user__pages__donation-wrap .total-donate p span {
+    font-size: 34px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+}
+.user__pages__donation-wrap .total-donate span.number {
+    color: #fff;
+    font-weight: 700;
+}
+.user__pages__donation-wrap .total-donate span.fa {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    line-height: 1;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.user__pages__donation--appointment {
+    width: 100%;
+    padding: 40px;
+}
+.user__pages__donation--appointment .form-group {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.user__pages__donation--appointment .form-group label {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.user__pages__donation--appointment .form-group .icon {
+    position: absolute;
+    top: 50% !important;
+    right: 15px;
+    font-size: 16px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.user__pages__donation--appointment .form-group .icon span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+.user__pages__donation--appointment .form-group .select-wrap,
+.user__pages__donation--appointment .form-group .input-wrap {
+    position: relative;
+}
+.user__pages__donation--appointment .form-group .select-wrap select,
+.user__pages__donation--appointment .form-group .input-wrap select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.user__pages__donation--appointment .form-group .btn {
+    width: 100%;
+    display: block !important;
+}
+.user__pages__donation--appointment .form-control {
+    height: 48px !important;
+    border: transparent;
+    background: white !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.user__pages__donation--appointment .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.9);
+}
+.user__pages__donation--appointment .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.9);
+}
+.user__pages__donation--appointment .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.9);
+}
+.user__pages__donation--appointment .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.9);
+}
+.user__pages__donation--appointment textarea.form-control {
+    height: inherit !important;
+}
+
+.form-radio .radio {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+.form-radio .radio label {
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.form-radio .radio label .fill-control-description {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.form-radio input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+}
+.form-radio input[type='radio']:checked ~ .fill-control-description {
+    color: #fd645b;
+}
+.form-radio input[type='radio']:disabled ~ .fill-control-description {
+    color: white;
+}
+
+.form-radio .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.form-radio .radio:hover input ~ .checkmark {
+    background-color: transparent;
+}
+
+.form-radio .radio input:checked ~ .checkmark {
+    border: 2px solid #fd645b;
+    -webkit-transition: 0.01s;
+    -o-transition: 0.01s;
+    transition: 0.01s;
+}
+
+.form-radio .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.form-radio .radio input:checked ~ .checkmark:after {
+    display: block;
+    border: 1px solid #fd645b;
+}
+
+.form-radio .radio .checkmark:after {
+    top: 1px;
+    left: 1px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fd645b;
+}
+
+.form-radio .radio input:checked.checkmark {
+    border: 2px solid #eec857 !important;
+}

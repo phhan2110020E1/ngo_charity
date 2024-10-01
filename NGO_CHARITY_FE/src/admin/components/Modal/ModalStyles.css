@@ -1,0 +1,11 @@
+.admin__modal_style_icon {
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    color: #c0baba;
+    cursor: pointer;
+}
+
+.admin__modal_style_icon:hover {
+    color: #8c7676;
+}
